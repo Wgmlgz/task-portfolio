@@ -33,6 +33,6 @@
   let isOpen1 = false;
 </script>
 
-<main class="mx-10">
+<main class="mx-10 xl:mx-50">
   <slot />
 </main>
