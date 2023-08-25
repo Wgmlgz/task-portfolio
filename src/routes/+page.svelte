@@ -129,6 +129,30 @@
           <ListItem>JWT - для реализации системы авторизации.</ListItem>
         </UnorderedList>
       </Project>
+
+      <div class="lg:grid-col-span-2">
+        <Project
+          title="Консольные Шахматы на Java"
+          gitlink="https://github.com/porunit/spring-studygroups-manager"
+          gitname="ConsoleChess"
+        >
+          <p>
+            Проект представляет себя реализацию классической игры в шахматы с консольным
+            интерфейсом. Система базируется на клиент-серверной архитектуре, где сервер обеспечивает
+            взаимодействие двух клиентов, участвующих в игре. Данные между клиентами и сервером
+            передаются по протоколу TCP/IP.
+          </p>
+          <br />
+          <p class="font-500 text-xl">Особенности:</p>
+          <br />
+          <UnorderedList class="ml-7">
+            <ListItem>Консольный интерфейс</ListItem>
+            <ListItem>Клиент-серверная архитектура</ListItem>
+            <ListItem>Поддержка игры между двумя участниками</ListItem>
+            <ListItem>Использование стандартных средств Java без сторонних библиотек</ListItem>
+          </UnorderedList>
+        </Project>
+      </div>
     </div>
   </div>
   <div class="grid gap-10 w-full">
